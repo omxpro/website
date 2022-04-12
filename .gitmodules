@@ -12,3 +12,7 @@
 	path = MySite/files
 	url = git@github.com:omxpro/output.git
 	branch = main
+[submodule "public"]
+	path = public
+	url = git@github.com:omxpro/output.git
+	branch = main
