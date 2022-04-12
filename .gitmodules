@@ -1,0 +1,4 @@
+[submodule "MySite/public"]
+	path = MySite/public
+	url = https://github.com/omxpro/omxpro.github.io.git
+	branch = main
