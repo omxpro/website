@@ -1,4 +1,7 @@
-[submodule "MySite/public"]
-	path = MySite/public
-	url = https://github.com/omxpro/omxpro.github.io.git
+[submodule "MySite/main"]
+	path = MySite/main
+	url = git@github.com:omxpro/output.git
 	branch = main
+[submodule "MySite/themes/themes/digitalgarden"]
+	path = MySite/themes/themes/digitalgarden
+	url = https://github.com/apvarun/digital-garden-hugo-theme.git
