@@ -11,21 +11,34 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Blog"
-  pageRef = "posts"
+  name = "About Me"
+  pageRef = "about"
   weight = 10
 
 [[main]]
-  name = "Categories"
-  pageRef = "categories"
+  name = "Projects"
+  pageRef = "projects"
   weight = 20
+  
+[[main]]
+ name = "Socials"
+ pageRef = "socials"
+ weight = 30
 
 [[main]]
-  name = "Tags"
-  pageRef = "tags"
-  weight = 30
+  name = "Blog"
+  pageRef = "posts"
+  weight = 40
 
-
+[[main]]
+ name = "Experience"
+ pageRef = "exp"
+ weight = 50
+  
+[[footer]]
+  name = "Made By Om Senjalia"
+  
+  
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.

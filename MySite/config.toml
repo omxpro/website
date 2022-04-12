@@ -1,4 +1,14 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://omxpro.github.io'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Hell There! i am Om Senjalia!'
 theme = 'congo'
+
+[menu]
+[[menu.main]]
+  name = 'Home'
+  url = '/'
+  weight = 1
+[[menu.main]]
+  name = 'about me'
+  url = '/about'
+  weight = 2
