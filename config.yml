@@ -1,7 +1,7 @@
 baseURL: "https://omxpro.github.io/output" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 title: Om's Portfolio
 paginate: 5
-theme: hugo-PaperMod
+theme: PaperMod
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -13,7 +13,7 @@ pygmentsUseClasses: true
 googleAnalytics: UA-123-45
 
 minify:
-    disableXML: true
+    disableXML: false
     # minifyOutput: true
 
 languages:
@@ -98,7 +98,7 @@ params:
     author: Om Senjalia
     # author: ["Me", "You"] # multiple authors
 
-    defaultTheme: auto
+    defaultTheme: dark
     # disableThemeToggle: true
     ShowShareButtons: true
     ShowReadingTime: true
@@ -112,7 +112,7 @@ params:
     images: ["logo.png"]
 
     profileMode:
-        enabled: false
+        enabled: true
         title: Om Senjalia
         imageUrl: "#"
         imageTitle: my image
