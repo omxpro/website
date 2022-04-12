@@ -5,3 +5,10 @@
 [submodule "MySite/themes/themes/digitalgarden"]
 	path = MySite/themes/themes/digitalgarden
 	url = https://github.com/apvarun/digital-garden-hugo-theme.git
+[submodule "MySite/themes/digitalgarden"]
+	path = MySite/themes/digitalgarden
+	url = https://github.com/apvarun/digital-garden-hugo-theme.git
+[submodule "MySite/files"]
+	path = MySite/files
+	url = git@github.com:omxpro/output.git
+	branch = main

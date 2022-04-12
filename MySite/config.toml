@@ -2,6 +2,7 @@ baseURL = "https://example.org/"
 languageCode = "en-us"
 title = "Personal Digital Garden"
 theme = "digitalgarden"
+publishDir = "files"
 
 googleAnalytics = "UA-PROPERTY_ID"
 
