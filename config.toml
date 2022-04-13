@@ -1,6 +1,6 @@
-baseURL       = "http://example.org/"
+baseURL       = "https://omxpro.github.io/output/"
 languageCode  = "en-us"
-title         = "Roxo | Creative Design Agency"
+title         = "Om Senjalia | Portfolio"
 theme         = "roxo"
 summarylength = 25
 
@@ -16,17 +16,22 @@ summarylength = 25
     url     = "about"
     weight  = 2
   [[menu.nav]]
-    name    = "Portfolio"
-    url     = "portfolio"
+    name    = "Projects"
+    url     = "projects"
     weight  = 3
   [[menu.nav]]
-    name    = "Blog"
-    url     = "blog"
+    name    = "Tools"
+    url     = "tools"
     weight  = 4
+  [[menu.nav]]
+    name    = "Socials"
+    url     = "socials"
+    weight  = 5
+
   [[menu.nav]]
     name    = "Get in touch"
     url     = "contact"
-    weight  = 5
+    weight  = 6
 
 # Site Params
 [params]
@@ -67,46 +72,41 @@ summarylength = 25
   [params.banner]
     enable                = true
     background_image      = "images/backgrounds/hero-background.jpg"
-    heading               = "We’re a Design Studio That Belies In the Great Ideas"
-    tagline               = "WE WORK HARD, WE PLAY HARD"
-    primary_button        = "See Our Works"
-    primary_button_url    = "portfolio"
+    heading               = "Welcome to my portfolio! Thanks for stopping by!"
+    tagline               = "Team work is Dream work!"
     secondary_button      = "Connect with Us"
     secondary_button_url  = "contact"
-
-  [params.portfolio]
-    enable    = true
-    title     = "OUR RECENT WORKS"
-    subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
 
   [params.call_to_action]
     enable              = true
     background_image    = "images/backgrounds/cta-background.jpg"
-    title               = "LET’S WORK TOGETHER"
+    title               = "Let's work together"
     primary_button      = "Submit Query"
     primary_button_url  = "contact"
     secondary_button    = "Not Convinced"
-    secondary_button_url = "portfolio"
 
   [params.footer]
     # Footer Contact Info
     [params.footer.contactInfo]
       title   = "Contact Info"
-      address = "713 Elmwood St.<br>Prior Lake, MN 55372"
-      phone   = "409-896-1444"
-      email   = "info@roxo.co"
+      address = "Rickroll St.<br> india."
+      phone   = "000-000-000"
+      email   = "info@omxpro.cf"
       # Footer Sitemap
       [params.footer.sitemap]
         title   = "Sitemap"
         [[params.footer.sitemap.link]]
-          name = "About Company"
+          name = "About Me"
           url  = "about"
-        [[params.footer.sitemap.link]]
+     [[params.footer.sitemap.link]]
           name = "Projects"
-          url  = "portfolio"
-        [[params.footer.sitemap.link]]
-          name = "Blog"
-          url  = "blog"
+          url  = "projects"
+     [[params.footer.sitemap.link]]
+          name = "Tools i use"
+          url  = "tools"
+     [[params.footer.sitemap.link]]
+          name = "Socials of mine"
+          url  = "socials" 
         [[params.footer.sitemap.link]]
           name = "Contact"
           url  = "contact"
@@ -127,5 +127,5 @@ summarylength = 25
           url  = "#"
       # Footer Service
       [params.footer.service]
-        title       = "We help brands:"
-        description = "develop design solutions<br>produce valuable cultural content<br>create fresh brand experience"
+        title       = "Thanks for visiting my Portfolio!"
+        description = "Thanks for stopping by! This portfolio will be updated regularly to add more information. Thanks for visiting! I Hope to see you again!"
