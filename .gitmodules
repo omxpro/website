@@ -16,3 +16,6 @@
 	path = public
 	url = git@github.com:omxpro/output.git
 	branch = main
+[submodule "themes/roxo"]
+	path = themes/roxo
+	url = git@github.com:StaticMania/roxo-hugo.git
